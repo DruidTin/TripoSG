@@ -50,7 +50,7 @@ conda activate tripoSG
 Install dependencies:
 ```bash
 # pytorch (select correct CUDA version)
-pip install torch torchvision --index-url https://download.pytorch.org/whl/{your-cuda-version}
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
 
 # other dependencies
 pip install -r requirements.txt
